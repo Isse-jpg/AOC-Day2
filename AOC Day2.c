@@ -54,7 +54,7 @@ int main()
                         { 
 
                             Farg[i].b = atoi(&color[j]); 
-                            printf("Färgen:%s har %d poäng\n",Farg[i].a,Farg[i].b);
+                            printf("The color:%s has %d points\n",Farg[i].a,Farg[i].b);
                             if(Farg[0].b>blue || Farg[1].b>red || Farg[2].b>green){
                                 printf("IMPOSSIBLE GAME: GAME %d\n",gametoken);
                                 check = -1;
